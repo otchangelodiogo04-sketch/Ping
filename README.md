@@ -1,6 +1,12 @@
+# Ping 💬
 
-PING PRO
-- Chat em tempo real (SignalR)
-- Estrutura para email real
-- UI comercial
-- Slides incluídos
+Ping é um projeto de aplicação de mensagens inspirado no WhatsApp.
+
+### Tecnologias
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+
+### Status
+Versão demonstrativa para apresentação acadêmica.
