@@ -1,5 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-body{margin:0;height:100vh;display:flex;justify-content:center;align-items:center;
-background:linear-gradient(135deg,#1ed760,#128c7e);font-family:Arial}
-.card{background:#fff;padding:40px;border-radius:16px;text-align:center;width:320px}
-button{padding:12px;width:100%;border:0;border-radius:8px;background:#1ed760;color:#fff}
+body {
+  background: #0b141a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 420px;
+  height: 100vh;
+  background: #111b21;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #202c33;
+  padding: 15px;
+  text-align: center;
+  color: #25d366;
+  font-size: 20px;
+}
+
+main {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  font-size: 14px;
+}
+
+.received {
+  background: #202c33;
+  color: #e9edef;
+}
+
+.sent {
+  background: #005c4b;
+  color: #e9edef;
+  margin-left: auto;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  background: #202c33;
+}
+
+footer input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+footer button {
+  margin-left: 10px;
+  padding: 10px 16px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #25d366;
+}
