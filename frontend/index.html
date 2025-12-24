@@ -1,10 +1,30 @@
-
-<!DOCTYPE html><html><head><title>PING</title>
-<link rel="stylesheet" href="style.css"></head>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ping</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-<div class="card">
-<h1>PING</h1>
-<p>Chat em tempo real</p>
-<button>Entrar</button>
+
+<div class="app">
+
+  <header>
+    <h1>Ping</h1>
+  </header>
+
+  <main id="chat">
+    <div class="message received">Olá 👋 Bem-vindo ao Ping!</div>
+  </main>
+
+  <footer>
+    <input type="text" id="msgInput" placeholder="Escreva uma mensagem..." />
+    <button onclick="sendMessage()">Enviar</button>
+  </footer>
+
 </div>
-</body></html>
+
+<script src="app.js"></script>
+</body>
+</html>
